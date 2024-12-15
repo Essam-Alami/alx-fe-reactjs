@@ -14,4 +14,4 @@
     );
   };
 
-  export default app
+  export default RecipeDetails;
