@@ -13,3 +13,5 @@
       </div>
     );
   };
+
+  export default app
