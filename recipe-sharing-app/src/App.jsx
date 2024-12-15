@@ -9,6 +9,7 @@ const App = () => {
     <Router>
       <div>
         <h1>Recipe Sharing App</h1>
+        <Routes />
         <Switch>
           <Route exact path="/" component={RecipeList} />
           <Route path="/add" component={AddRecipeForm} />
