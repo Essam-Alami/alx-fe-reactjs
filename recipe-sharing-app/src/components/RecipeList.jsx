@@ -15,4 +15,4 @@ const RecipeList = () => {
   );
 };
 
-export default app
+export default RecipeList;
