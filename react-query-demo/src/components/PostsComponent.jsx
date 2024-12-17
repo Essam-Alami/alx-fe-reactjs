@@ -17,6 +17,7 @@ const PostsComponent = () => {
         staleTime
         refetchOnWindowFocus
         keepPreviousData
+        button onClick
       {data.map(post => (
         <div key={post.id}>
           <h3>{post.title}</h3>
