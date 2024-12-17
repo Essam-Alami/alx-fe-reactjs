@@ -7,6 +7,7 @@ import NotFound from './components/NotFound';
 const App = () => {
   return (
     <Router>
+      <Routes />
       <div>
         <h1>My React App</h1>
         <Switch>

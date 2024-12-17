@@ -9,6 +9,7 @@ const Profile = () => {
   return (
     <div>
       <h2>Profile</h2>
+      <Routes />
       <Switch>
         <Route exact path={path} component={ProfileDetails} />
         <Route path={`${path}/settings`} component={ProfileSettings} />
