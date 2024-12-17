@@ -26,3 +26,5 @@ test('deletes a todo', () => {
   fireEvent.click(screen.getByText('Delete', { selector: 'button' }));
   expect(screen.queryByText('Learn React')).not.toBeInTheDocument();
 });
+
+export default TodoList;
