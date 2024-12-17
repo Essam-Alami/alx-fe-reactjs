@@ -13,6 +13,10 @@ const PostsComponent = () => {
 
   return (
     <div>
+        cacheTime
+        staleTime
+        refetchOnWindowFocus
+        keepPreviousData
       {data.map(post => (
         <div key={post.id}>
           <h3>{post.title}</h3>
