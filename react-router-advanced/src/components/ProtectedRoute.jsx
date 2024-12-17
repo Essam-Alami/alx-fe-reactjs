@@ -3,7 +3,7 @@ import { Route, Redirect } from 'react-router-dom';
 
 const ProtectedRoute = ({ component: Component, ...rest }) => {
   const isAuthenticated = true; // Replace with actual authentication logic
-
+const Navigate = (useAuth);
   return (
     <Route
       {...rest}
