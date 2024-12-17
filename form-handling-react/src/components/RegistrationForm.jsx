@@ -11,6 +11,14 @@ const RegistrationForm = () => {
       alert('All fields are required!');
       return;
     }
+    if (!email) {
+        setErrors('Please use a correct email form');
+        return;
+    }
+    if (!password) {
+        setErrors('please type in your password');
+        return;
+    }
     // Simulate API call
     console.log('User registered:', { username, email, password });
   };

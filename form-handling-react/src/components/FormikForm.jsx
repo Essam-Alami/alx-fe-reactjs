@@ -17,7 +17,6 @@ const FormikForm = () => {
       onSubmit={(values) => {
         // Simulate API call
         console.log('User registered:', values);
-        [ if (!email), if (!password), setErrors]
       }}
     >
       {({ isSubmitting }) => (
