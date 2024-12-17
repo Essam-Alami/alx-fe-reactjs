@@ -1,3 +1,4 @@
+// __tests__/TodoList.test.js
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import TodoList from '../TodoList';
@@ -26,5 +27,3 @@ test('deletes a todo', () => {
   fireEvent.click(screen.getByText('Delete', { selector: 'button' }));
   expect(screen.queryByText('Learn React')).not.toBeInTheDocument();
 });
-
-export default TodoList;
