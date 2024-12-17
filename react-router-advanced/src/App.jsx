@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Profile from './components/Profile';
 import NotFound from './components/NotFound';
+import TodoList from './TodoList';
 const ProtectedRoute = {};
 const App = () => {
   return (
