@@ -14,6 +14,7 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route path="/profile" component={Profile} />
           <Route component={NotFound} />
+          <Route path="/blog/:id" component={BlogPost} />
         </Switch>
       </div>
     </Router>
