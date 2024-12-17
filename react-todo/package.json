@@ -11,6 +11,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "cjs": "^0.0.11",
+    "javascript": "^1.0.0",
     "jest-environment-jsdom": "^29.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
