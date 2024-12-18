@@ -40,3 +40,5 @@ const RecipeDetail = () => {
 };
 
 export default RecipeDetail;
+
+shadow
