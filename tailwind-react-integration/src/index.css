@@ -70,3 +70,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.UserProfile {
+  background-color: gray;
+  padding: 8px;
+  width: 400px;
+}
