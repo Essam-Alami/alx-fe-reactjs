@@ -3,4 +3,4 @@ import useEffect from './data.json'
 
 
 <map name=""></map>
-classname text hover rounded shadow
+className text hover rounded shadow
