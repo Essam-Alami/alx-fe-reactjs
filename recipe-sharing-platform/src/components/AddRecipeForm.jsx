@@ -45,3 +45,7 @@ handleSubmit
 target.value
 steps 
 onSubmit
+validate 
+errors 
+setErrors 
+preventDefault 
