@@ -33,3 +33,6 @@ const fetchAdvancedUserData = async (username, location, minRepos) => {
 
 export { fetchUserData, fetchAdvancedUserData };
 
+
+https://api.github.com/search/users?q
+
