@@ -40,3 +40,8 @@ const RecipeDetail = () => {
 };
 
 export default RecipeDetail;
+
+handleSubmit
+target.value
+steps 
+onSubmit
