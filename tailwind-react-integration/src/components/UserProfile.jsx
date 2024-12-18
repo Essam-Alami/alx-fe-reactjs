@@ -11,6 +11,7 @@ function UserProfile() {
   export default UserProfile;
 
 
-
-  md:p-8 sm:p-4
+  md:max-w-sm;
+  md:text-xl;
+  
   
