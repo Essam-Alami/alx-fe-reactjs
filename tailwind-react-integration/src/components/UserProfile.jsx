@@ -18,5 +18,9 @@ function UserProfile() {
   sm:h-24;
   md:w-36;
   md:h-36;
+  hover:scale-110;
+  {transition-transform, duration-300, ease-in-out};
+  hover:text-blue-500;
+  hover:shadow-xl;
   
   
